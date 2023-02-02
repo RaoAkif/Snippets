@@ -51,6 +51,7 @@ export default FruitList;
 ```
 
 ### Delete Operation on the list
+```
 import React, { useState } from 'react';
 
 function FruitList() {
@@ -73,3 +74,5 @@ function FruitList() {
 }
 
 export default FruitList;
+
+```
