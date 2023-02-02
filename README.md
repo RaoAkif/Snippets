@@ -1,5 +1,45 @@
 # Snippets
 
+### Fetch Data using axios and useEffect from an endpoint with try and catch
+
+```
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+function UserData() {
+  const [user, setUser] = useState({});
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await axios.get('https://randomuser.me/api/');
+        setUser(response.data.results[0]);
+      } catch (err) {
+        setError(err);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  if (error) {
+    return <p>An error occurred: {error.message}</p>;
+  }
+
+  return (
+    <div>
+      <p>Name: {user.name && user.name.first} {user.name && user.name.last}</p>
+      <p>Email: {user.email}</p>
+      <p>Phone: {user.phone}</p>
+    </div>
+  );
+}
+
+export default UserData;
+
+```
+
 ### Fetch Data using useEffect from an endpoint WITHOUT axios
 ```
 import React, { useState, useEffect } from 'react';
