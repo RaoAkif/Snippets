@@ -29,3 +29,23 @@ function UserData() {
 
 export default UserData;
 ```
+
+### Map a list and map on the DOM
+```
+import React from 'react';
+
+function FruitList() {
+  const fruits = ['apple', 'banana', 'cherry', 'grape', 'orange'];
+
+  return (
+    <ul>
+      {fruits.map((fruit, index) => (
+        <li key={index}>{fruit}</li>
+      ))}
+    </ul>
+  );
+}
+
+export default FruitList;
+
+```
