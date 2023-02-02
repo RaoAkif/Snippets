@@ -1,5 +1,34 @@
 # Snippets
 
+### Fetch Data using useEffect from an endpoint WITHOUT axios
+```
+import React, { useState, useEffect } from 'react';
+
+function UserData() {
+  const [user, setUser] = useState({});
+
+  useEffect(() => {
+    async function fetchData() {
+      const response = await fetch('https://randomuser.me/api/');
+      const data = await response.json();
+      setUser(data.results[0]);
+    }
+
+    fetchData();
+  }, []);
+
+  return (
+    <div>
+      <p>Name: {user.name && user.name.first} {user.name && user.name.last}</p>
+      <p>Email: {user.email}</p>
+      <p>Phone: {user.phone}</p>
+    </div>
+  );
+}
+
+export default UserData;
+
+```
 
 ### Fetch Data using axios and useEffect from an endpoint
 ```
