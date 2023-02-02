@@ -49,3 +49,27 @@ function FruitList() {
 export default FruitList;
 
 ```
+
+### Delete Operation on the list
+import React, { useState } from 'react';
+
+function FruitList() {
+  const [fruits, setFruits] = useState(['apple', 'banana', 'cherry', 'grape', 'orange']);
+
+  const handleDelete = (index) => {
+    setFruits(fruits.filter((fruit, i) => i !== index));
+  };
+
+  return (
+    <ul>
+      {fruits.map((fruit, index) => (
+        <li key={index}>
+          {fruit}
+          <button onClick={() => handleDelete(index)}>Delete</button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export default FruitList;
