@@ -40,13 +40,14 @@ We'll discuss how to fill out each field step by step.
 
 You will now add different sections to your profile by selecting them from the Add profile section menu, which displays a list of core, recommended and additional sections.
 
-![images/L20.png](images/L20.png)
+![L20](https://user-images.githubusercontent.com/61361037/224245331-14acf013-14b8-4933-bf99-07bad32b674e.png)
+
 
 According to most students, the "About Me" is the hardest (and most intimidating) section of the LinkedIn profile. The good news, however, is that you've already written most of it, and now you can simply copy/paste it into LinkedIn.
 
 **Learn more about the About section:**
 
-[What makes a compelling About section?](what-makes-a-compelling-about.md)
+[What makes a compelling About section?](https://github.com/RaoAkif/Snippets/blob/main/LinkedIn/about.md))
 
 **Apply what you've learned**
 
@@ -58,7 +59,7 @@ The Featured section is one of the first blocks that a hiring manager will see w
 
 **Learn more about how to create an eye-catching Featured section:**
 
-[What makes a strong Featured section?](what-makes-a-strong-featured-section.md)
+[What makes a strong Featured section?](https://github.com/RaoAkif/Snippets/blob/main/LinkedIn/featured.md)
 
 **Apply what you've learned**
 
