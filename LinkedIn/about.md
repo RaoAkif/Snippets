@@ -9,7 +9,8 @@ As you know, an elevator pitch is a short, persuasive introduction to who you ar
 
 For an example that follows this formula almost exactly, look below:
 
-![images/LI3.png](images/LI3.png)
+![LI3](https://user-images.githubusercontent.com/61361037/224245896-1b8e01f0-c8de-43eb-ad42-b093fd352671.png)
+
 
 If you'd like, you can also add a little more information, such as:
 
