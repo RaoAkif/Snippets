@@ -21,13 +21,15 @@ Paste the link or upload a file you'd like to add to the Featured section. Once 
 
 Once done, save your project. You can view the gif below for help.
 
-![images/LI4.gif](images/LI4.gif)
+![LI4](https://user-images.githubusercontent.com/61361037/224247357-01f4fd4e-2380-41f4-89c6-475a93021f4a.gif)
+
 
 ### **Make sure your Featured projects have thumbnails**
 
 If you upload a file or link to a project, LinkedIn will nearly always add a link preview/thumbnail. **However**, you may occasionally notice that some of your projects (especially live demos) **don't** have thumbnails. This is because you haven't added a link preview. Take a look at the example below.
 
-![images/LI5.png](images/LI5.png)
+![LI5](https://user-images.githubusercontent.com/61361037/224247368-c82800d9-1b75-4269-ab70-92d7c6505d67.png)
+
 
 If one of your projects **does not** have a thumbnail, **add** **link previews to the meta tags** of that project. Doing so will ensure that the thumbnail shows up properly, rather than a blank gray box that does nothing to entice a hiring manager into clicking. [Check out this great Hubspot article on how to add link previews to the meta tags](https://knowledge.hubspot.com/social/featured-image-not-displaying-correctly-in-social-preview) if you're not sure how to do so.
 
@@ -35,7 +37,8 @@ If one of your projects **does not** have a thumbnail, **add** **link previews t
 
 LinkedIn only shows the first 3 featured projects as a default; viewers have to scroll to see the rest of them. Therefore, you need to make sure that your best projects come first. Click the pencil/edit icon and then click and drag your projects to fit the order that you'd like.
 
-![images/LI6.gif](images/LI6.gif)
+![LI6](https://user-images.githubusercontent.com/61361037/224247389-9d265677-d187-4c2f-9169-918aa220e667.gif)
+
 
 
 ------
